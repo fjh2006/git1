@@ -1,0 +1,60 @@
+[0.020s] Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+[0.169s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o[0m
+[7.105s] [01m[K/home/tiger/桌面/turtle_chase_package/src/turtle_chase.cpp:[m[K In constructor ‘[01m[KTurtleChase::TurtleChase()[m[K’:
+[7.105s] [01m[K/home/tiger/桌面/turtle_chase_package/src/turtle_chase.cpp:24:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = turtlesim::srv::Spawn; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >][m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.105s]    24 | [01;35m[Kmplete(future_result)[m[K;// 异步发送spawn请求，并等待结果
+[7.105s]       | [01;35m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+[7.105s] 
+[7.105s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.106s]                  from [01m[K/home/tiger/桌面/turtle_chase_package/src/turtle_chase.cpp:1[m[K:
+[7.106s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.106s]   415 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+[7.106s]       |     [01;36m[K^~~~~~~~[m[K
+[7.106s] [01m[K/home/tiger/桌面/turtle_chase_package/src/turtle_chase.cpp:28:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = turtlesim::srv::Spawn; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >][m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.107s]    28 | [01;35m[Kmplete(future_result)[m[K;
+[7.107s]       | [01;35m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+[7.107s] 
+[7.107s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.107s]                  from [01m[K/home/tiger/桌面/turtle_chase_package/src/turtle_chase.cpp:1[m[K:
+[7.107s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.107s]   415 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+[7.107s]       |     [01;36m[K^~~~~~~~[m[K
+[21.074s] [100%] [32m[1mLinking CXX executable turtle_chase[0m
+[22.644s] [100%] Built target turtle_chase
+[22.671s] Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+[22.757s] Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package
+[22.785s] -- Install configuration: ""
+[22.786s] -- Installing: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib/turtle_chase_package/turtle_chase
+[22.827s] -- Set runtime path of "/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib/turtle_chase_package/turtle_chase" to ""
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/package_run_dependencies/turtle_chase_package
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/parent_prefix_path/turtle_chase_package
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/ament_prefix_path.sh
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/ament_prefix_path.dsv
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/path.sh
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/path.dsv
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.bash
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.sh
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.zsh
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.dsv
+[22.827s] -- Installing: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.dsv
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/packages/turtle_chase_package
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/cmake/turtle_chase_packageConfig.cmake
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/cmake/turtle_chase_packageConfig-version.cmake
+[22.827s] -- Up-to-date: /home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.xml
+[22.830s] Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package

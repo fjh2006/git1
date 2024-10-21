@@ -1,0 +1,103 @@
+[1.195s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.196s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73be1bbb8040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73be1bda05b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73be1bda05b0>>)
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.812s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tiger/桌面/turtle_chase_package'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.837s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'turtle_chase_package'
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.886s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[1.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'cmake_args' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'cmake_target' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_chase_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.939s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_chase_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package', 'merge_install': False, 'path': '/home/tiger/桌面/turtle_chase_package', 'symlink_install': False, 'test_result_base': None}
+[1.939s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.940s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.940s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tiger/桌面/turtle_chase_package' with build type 'ament_cmake'
+[1.941s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tiger/桌面/turtle_chase_package'
+[1.964s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+[26.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+[26.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package
+[26.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_chase_package)
+[26.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package
+[26.694s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package' for CMake module files
+[26.694s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package' for CMake config files
+[26.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_chase_package', 'cmake_prefix_path')
+[26.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/hook/cmake_prefix_path.ps1'
+[26.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/hook/cmake_prefix_path.dsv'
+[26.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/hook/cmake_prefix_path.sh'
+[26.706s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib'
+[26.706s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/bin'
+[26.706s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib/pkgconfig/turtle_chase_package.pc'
+[26.706s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib/python3.10/site-packages'
+[26.707s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/bin'
+[26.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.ps1'
+[26.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.dsv'
+[26.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.sh'
+[26.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.bash'
+[26.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.zsh'
+[26.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/colcon-core/packages/turtle_chase_package)
+[26.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_chase_package)
+[26.832s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package' for CMake module files
+[26.832s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package' for CMake config files
+[26.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_chase_package', 'cmake_prefix_path')
+[26.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/hook/cmake_prefix_path.ps1'
+[26.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/hook/cmake_prefix_path.dsv'
+[26.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/hook/cmake_prefix_path.sh'
+[26.839s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib'
+[26.840s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/bin'
+[26.840s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib/pkgconfig/turtle_chase_package.pc'
+[26.840s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/lib/python3.10/site-packages'
+[26.840s] Level 1:colcon.colcon_core.environment:checking '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/bin'
+[26.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.ps1'
+[26.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.dsv'
+[26.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.sh'
+[26.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.bash'
+[26.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.zsh'
+[26.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package/share/colcon-core/packages/turtle_chase_package)
+[26.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.848s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.848s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.848s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.859s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.859s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.972s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.973s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiger/桌面/turtle_chase_package/install/local_setup.ps1'
+[26.982s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tiger/桌面/turtle_chase_package/install/_local_setup_util_ps1.py'
+[26.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiger/桌面/turtle_chase_package/install/setup.ps1'
+[26.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiger/桌面/turtle_chase_package/install/local_setup.sh'
+[27.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tiger/桌面/turtle_chase_package/install/_local_setup_util_sh.py'
+[27.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiger/桌面/turtle_chase_package/install/setup.sh'
+[27.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiger/桌面/turtle_chase_package/install/local_setup.bash'
+[27.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiger/桌面/turtle_chase_package/install/setup.bash'
+[27.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tiger/桌面/turtle_chase_package/install/local_setup.zsh'
+[27.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tiger/桌面/turtle_chase_package/install/setup.zsh'

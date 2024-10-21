@@ -1,0 +1,4 @@
+Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package
+Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package

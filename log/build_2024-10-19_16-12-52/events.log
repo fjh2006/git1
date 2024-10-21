@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (turtle_chase_package) JobQueued: {'identifier': 'turtle_chase_package', 'dependencies': OrderedDict()}
+[0.001007] (turtle_chase_package) JobStarted: {'identifier': 'turtle_chase_package'}
+[0.022706] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'cmake'}
+[0.023784] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'build'}
+[0.024816] (turtle_chase_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', '--', '-j1', '-l1'], 'cwd': '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tiger'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tiger'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tiger/桌面'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2488'), ('SYSTEMD_EXEC_PID', '2642'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4177'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tiger'), ('JOURNAL_STREAM', '8:12302'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tiger'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tiger-VirtualBox:@/tmp/.ICE-unix/2604,unix/tiger-VirtualBox:/tmp/.ICE-unix/2604'), ('INVOCATION_ID', '8cd4ca66a5bb4b9fad28902043f70f9e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF3YV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da4fc3b148.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.104405] (-) TimerEvent: {}
+[0.150396] (turtle_chase_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o\x1b[0m\n'}
+[0.216959] (-) TimerEvent: {}
+[0.327612] (-) TimerEvent: {}
+[0.444794] (-) TimerEvent: {}
+[0.552291] (-) TimerEvent: {}
+[0.663665] (-) TimerEvent: {}
+[0.770219] (-) TimerEvent: {}
+[0.891131] (-) TimerEvent: {}
+[0.991893] (-) TimerEvent: {}
+[1.122177] (-) TimerEvent: {}
+[1.233677] (-) TimerEvent: {}
+[1.340281] (-) TimerEvent: {}
+[1.454873] (-) TimerEvent: {}
+[1.560799] (-) TimerEvent: {}
+[1.677461] (-) TimerEvent: {}
+[1.791799] (-) TimerEvent: {}
+[1.895391] (-) TimerEvent: {}
+[2.021412] (-) TimerEvent: {}
+[2.127107] (-) TimerEvent: {}
+[2.245415] (-) TimerEvent: {}
+[2.346353] (-) TimerEvent: {}
+[2.464703] (-) TimerEvent: {}
+[2.588505] (-) TimerEvent: {}
+[2.691155] (-) TimerEvent: {}
+[2.824692] (-) TimerEvent: {}
+[2.928647] (-) TimerEvent: {}
+[3.032509] (-) TimerEvent: {}
+[3.136474] (-) TimerEvent: {}
+[3.261659] (-) TimerEvent: {}
+[3.370381] (-) TimerEvent: {}
+[3.483728] (-) TimerEvent: {}
+[3.598147] (-) TimerEvent: {}
+[3.739302] (-) TimerEvent: {}
+[3.841054] (-) TimerEvent: {}
+[3.945122] (-) TimerEvent: {}
+[4.072356] (-) TimerEvent: {}
+[4.172835] (-) TimerEvent: {}
+[4.284750] (-) TimerEvent: {}
+[4.397707] (-) TimerEvent: {}
+[4.532974] (-) TimerEvent: {}
+[4.663318] (-) TimerEvent: {}
+[4.666701] (turtle_chase_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.666906] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.666971] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.667025] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.667080] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.667138] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.667240] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.667306] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.667386] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.667451] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.683299] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.683460] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:1\x1b[m\x1b[K:\n'}
+[4.683497] (turtle_chase_package) StderrLine: {'line': b'/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtleChase::wait_for_future(Future&) [with Future = rclcpp::Client<turtlesim::srv::Spawn>::FutureAndRequestId]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.683531] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:77:20:\x1b[m\x1b[K   required from here\n'}
+[4.683562] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:120:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct turtlesim::srv::Spawn_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct turtlesim::srv::Spawn_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksuccess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.683596] (turtle_chase_package) StderrLine: {'line': b'  120 | ger(), "\xe6\x9c\x8d\xe5\x8a\xa1\xe5\x93\x8d\xe5\xba\x94\xef\xbc\x9a%d", \x1b[01;31m\x1b[Kresult->success\x1b[m\x1b[K);\n'}
+[4.683625] (turtle_chase_package) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.683655] (turtle_chase_package) StderrLine: {'line': b'\n'}
+[4.688940] (turtle_chase_package) StderrLine: {'line': b'/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtleChase::wait_for_future(Future&) [with Future = rclcpp::Client<turtlesim::srv::Kill>::FutureAndRequestId]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.689099] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:89:20:\x1b[m\x1b[K   required from here\n'}
+[4.689138] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:120:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct turtlesim::srv::Kill_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct turtlesim::srv::Kill_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksuccess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.786106] (-) TimerEvent: {}
+[4.918030] (-) TimerEvent: {}
+[5.082027] (-) TimerEvent: {}
+[5.191005] (-) TimerEvent: {}
+[5.311287] (-) TimerEvent: {}
+[5.433920] (-) TimerEvent: {}
+[5.536143] (-) TimerEvent: {}
+[5.688389] (-) TimerEvent: {}
+[5.821345] (-) TimerEvent: {}
+[5.923275] (-) TimerEvent: {}
+[6.048623] (-) TimerEvent: {}
+[6.152237] (-) TimerEvent: {}
+[6.277273] (-) TimerEvent: {}
+[6.382470] (-) TimerEvent: {}
+[6.497907] (-) TimerEvent: {}
+[6.602080] (-) TimerEvent: {}
+[6.712540] (-) TimerEvent: {}
+[6.827386] (-) TimerEvent: {}
+[6.932088] (-) TimerEvent: {}
+[7.044262] (-) TimerEvent: {}
+[7.157949] (-) TimerEvent: {}
+[7.266054] (-) TimerEvent: {}
+[7.369004] (-) TimerEvent: {}
+[7.469798] (-) TimerEvent: {}
+[7.580413] (-) TimerEvent: {}
+[7.688268] (-) TimerEvent: {}
+[7.804755] (-) TimerEvent: {}
+[7.918449] (-) TimerEvent: {}
+[8.018880] (-) TimerEvent: {}
+[8.121775] (-) TimerEvent: {}
+[8.224368] (-) TimerEvent: {}
+[8.347259] (-) TimerEvent: {}
+[8.454227] (-) TimerEvent: {}
+[8.560611] (-) TimerEvent: {}
+[8.683117] (-) TimerEvent: {}
+[8.785324] (-) TimerEvent: {}
+[8.887812] (-) TimerEvent: {}
+[8.993012] (-) TimerEvent: {}
+[9.101312] (-) TimerEvent: {}
+[9.202225] (turtle_chase_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_chase.dir/build.make:76\xef\xbc\x9aCMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[9.202468] (-) TimerEvent: {}
+[9.205713] (turtle_chase_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/turtle_chase.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.206811] (turtle_chase_package) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.215622] (turtle_chase_package) CommandEnded: {'returncode': 2}
+[9.258248] (turtle_chase_package) JobEnded: {'identifier': 'turtle_chase_package', 'rc': 2}
+[9.263709] (-) EventReactorShutdown: {}

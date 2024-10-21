@@ -1,0 +1,2 @@
+Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '2': /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1

@@ -1,0 +1,47 @@
+[0.018s] Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tiger/桌面/turtle_chase_package -DCMAKE_INSTALL_PREFIX=/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.546s] -- The CXX compiler identification is GNU 11.4.0
+[0.567s] -- Detecting C compiler ABI info
+[0.789s] -- Detecting C compiler ABI info - done
+[0.814s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.815s] -- Detecting C compile features
+[0.822s] -- Detecting C compile features - done
+[0.837s] -- Detecting CXX compiler ABI info
+[1.125s] -- Detecting CXX compiler ABI info - done
+[1.151s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.155s] -- Detecting CXX compile features
+[1.155s] -- Detecting CXX compile features - done
+[1.211s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.595s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.834s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.953s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.957s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.968s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.054s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.227s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.227s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.542s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.743s] -- Looking for pthread.h
+[3.106s] -- Looking for pthread.h - found
+[3.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.412s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.413s] -- Found Threads: TRUE  
+[3.526s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.960s] -- Configuring done
+[4.014s] -- Generating done
+[4.014s] -- Build files have been written to: /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package
+[4.044s] Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tiger/桌面/turtle_chase_package -DCMAKE_INSTALL_PREFIX=/home/tiger/桌面/turtle_chase_package/install/turtle_chase_package
+[4.048s] Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+[4.192s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o[0m
+[4.696s] In file included from [01m[K/home/tiger/桌面/turtle_chase_package/src/turtle_chase.cpp:1[m[K:
+[4.703s] [01m[K/home/tiger/桌面/turtle_chase_package/include/turtle_chase.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: 没有那个文件或目录
+[4.703s]     6 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[4.703s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.703s] compilation terminated.
+[4.709s] gmake[2]: *** [CMakeFiles/turtle_chase.dir/build.make:76：CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o] 错误 1
+[4.712s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_chase.dir/all] 错误 2
+[4.712s] gmake: *** [Makefile:146：all] 错误 2
+[4.744s] Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1

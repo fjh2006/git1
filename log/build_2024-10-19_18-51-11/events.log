@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.001529] (turtle_chase_package) JobQueued: {'identifier': 'turtle_chase_package', 'dependencies': OrderedDict()}
+[0.001581] (turtle_chase_package) JobStarted: {'identifier': 'turtle_chase_package'}
+[0.015556] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'cmake'}
+[0.023482] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'build'}
+[0.025282] (turtle_chase_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', '--', '-j1', '-l1'], 'cwd': '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tiger'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tiger'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tiger/桌面'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2511'), ('SYSTEMD_EXEC_PID', '2657'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3777'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tiger'), ('JOURNAL_STREAM', '8:12435'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tiger'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tiger-VirtualBox:@/tmp/.ICE-unix/2626,unix/tiger-VirtualBox:/tmp/.ICE-unix/2626'), ('INVOCATION_ID', '4c9a05a0916845a7b0d93abb63e6d56e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKMZV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da4fc3b148.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.116078] (-) TimerEvent: {}
+[0.185337] (turtle_chase_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_chase\x1b[0m\n'}
+[0.232941] (-) TimerEvent: {}
+[0.266556] (turtle_chase_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o\x1b[0m\n'}
+[0.339813] (-) TimerEvent: {}
+[0.443875] (-) TimerEvent: {}
+[0.546191] (-) TimerEvent: {}
+[0.649032] (-) TimerEvent: {}
+[0.753872] (-) TimerEvent: {}
+[0.855143] (-) TimerEvent: {}
+[0.968765] (-) TimerEvent: {}
+[1.085418] (-) TimerEvent: {}
+[1.193277] (-) TimerEvent: {}
+[1.308079] (-) TimerEvent: {}
+[1.424155] (-) TimerEvent: {}
+[1.545756] (-) TimerEvent: {}
+[1.646797] (-) TimerEvent: {}
+[1.756488] (-) TimerEvent: {}
+[1.864113] (-) TimerEvent: {}
+[1.994506] (-) TimerEvent: {}
+[2.113468] (-) TimerEvent: {}
+[2.230069] (-) TimerEvent: {}
+[2.343929] (-) TimerEvent: {}
+[2.457761] (-) TimerEvent: {}
+[2.578429] (-) TimerEvent: {}
+[2.680269] (-) TimerEvent: {}
+[2.780848] (-) TimerEvent: {}
+[2.881836] (-) TimerEvent: {}
+[2.982562] (-) TimerEvent: {}
+[3.083893] (-) TimerEvent: {}
+[3.194071] (-) TimerEvent: {}
+[3.297664] (-) TimerEvent: {}
+[3.419504] (-) TimerEvent: {}
+[3.520321] (-) TimerEvent: {}
+[3.620815] (-) TimerEvent: {}
+[3.724610] (-) TimerEvent: {}
+[3.882999] (-) TimerEvent: {}
+[4.009124] (-) TimerEvent: {}
+[4.120463] (-) TimerEvent: {}
+[4.234990] (-) TimerEvent: {}
+[4.338693] (-) TimerEvent: {}
+[4.448907] (-) TimerEvent: {}
+[4.552307] (-) TimerEvent: {}
+[4.666209] (-) TimerEvent: {}
+[4.802205] (-) TimerEvent: {}
+[4.916184] (-) TimerEvent: {}
+[5.017470] (-) TimerEvent: {}
+[5.151137] (-) TimerEvent: {}
+[5.255935] (-) TimerEvent: {}
+[5.357684] (-) TimerEvent: {}
+[5.482610] (-) TimerEvent: {}
+[5.592536] (-) TimerEvent: {}
+[5.699350] (-) TimerEvent: {}
+[5.800530] (-) TimerEvent: {}
+[5.903140] (-) TimerEvent: {}
+[6.020103] (-) TimerEvent: {}
+[6.122245] (-) TimerEvent: {}
+[6.223308] (-) TimerEvent: {}
+[6.331060] (-) TimerEvent: {}
+[6.432495] (-) TimerEvent: {}
+[6.534071] (-) TimerEvent: {}
+[6.635176] (-) TimerEvent: {}
+[6.740766] (-) TimerEvent: {}
+[6.846415] (-) TimerEvent: {}
+[6.950282] (-) TimerEvent: {}
+[7.057486] (-) TimerEvent: {}
+[7.157868] (-) TimerEvent: {}
+[7.260211] (-) TimerEvent: {}
+[7.378564] (-) TimerEvent: {}
+[7.483194] (-) TimerEvent: {}
+[7.596576] (-) TimerEvent: {}
+[7.710572] (-) TimerEvent: {}
+[7.811613] (-) TimerEvent: {}
+[7.921706] (-) TimerEvent: {}
+[8.052727] (-) TimerEvent: {}
+[8.153673] (-) TimerEvent: {}
+[8.263469] (-) TimerEvent: {}
+[8.366152] (-) TimerEvent: {}
+[8.481645] (-) TimerEvent: {}
+[8.604814] (-) TimerEvent: {}
+[8.714642] (-) TimerEvent: {}
+[8.821692] (-) TimerEvent: {}
+[8.938678] (-) TimerEvent: {}
+[9.059536] (-) TimerEvent: {}
+[9.196031] (-) TimerEvent: {}
+[9.340740] (-) TimerEvent: {}
+[9.444364] (-) TimerEvent: {}
+[9.560060] (-) TimerEvent: {}
+[9.686720] (-) TimerEvent: {}
+[9.813984] (-) TimerEvent: {}
+[9.926468] (-) TimerEvent: {}
+[10.034577] (-) TimerEvent: {}
+[10.143429] (-) TimerEvent: {}
+[10.246924] (-) TimerEvent: {}
+[10.353856] (-) TimerEvent: {}
+[10.467942] (-) TimerEvent: {}
+[10.578637] (-) TimerEvent: {}
+[10.685986] (-) TimerEvent: {}
+[10.793906] (-) TimerEvent: {}
+[10.896657] (-) TimerEvent: {}
+[10.999942] (-) TimerEvent: {}
+[11.102698] (-) TimerEvent: {}
+[11.203292] (-) TimerEvent: {}
+[11.304198] (-) TimerEvent: {}
+[11.410680] (-) TimerEvent: {}
+[11.523408] (-) TimerEvent: {}
+[11.627926] (-) TimerEvent: {}
+[11.732241] (-) TimerEvent: {}
+[11.843764] (-) TimerEvent: {}
+[11.956678] (-) TimerEvent: {}
+[12.074217] (-) TimerEvent: {}
+[12.180305] (-) TimerEvent: {}
+[12.290544] (-) TimerEvent: {}
+[12.403548] (-) TimerEvent: {}
+[12.508438] (-) TimerEvent: {}
+[12.611369] (-) TimerEvent: {}
+[12.721374] (-) TimerEvent: {}
+[12.835950] (-) TimerEvent: {}
+[12.951471] (-) TimerEvent: {}
+[13.052317] (-) TimerEvent: {}
+[13.169632] (-) TimerEvent: {}
+[13.290788] (-) TimerEvent: {}
+[13.400764] (-) TimerEvent: {}
+[13.529976] (-) TimerEvent: {}
+[13.631041] (-) TimerEvent: {}
+[13.734988] (-) TimerEvent: {}
+[13.845977] (-) TimerEvent: {}
+[13.948638] (-) TimerEvent: {}
+[14.059961] (-) TimerEvent: {}
+[14.168132] (-) TimerEvent: {}
+[14.269208] (-) TimerEvent: {}
+[14.377617] (-) TimerEvent: {}
+[14.483458] (-) TimerEvent: {}
+[14.594095] (-) TimerEvent: {}
+[14.695382] (-) TimerEvent: {}
+[14.797524] (-) TimerEvent: {}
+[14.901519] (-) TimerEvent: {}
+[15.010400] (-) TimerEvent: {}
+[15.112277] (-) TimerEvent: {}
+[15.217905] (-) TimerEvent: {}
+[15.351015] (-) TimerEvent: {}
+[15.452344] (-) TimerEvent: {}
+[15.556597] (-) TimerEvent: {}
+[15.658319] (-) TimerEvent: {}
+[15.774233] (-) TimerEvent: {}
+[15.881687] (-) TimerEvent: {}
+[15.986271] (-) TimerEvent: {}
+[16.086923] (-) TimerEvent: {}
+[16.193819] (-) TimerEvent: {}
+[16.307516] (-) TimerEvent: {}
+[16.428859] (-) TimerEvent: {}
+[16.529993] (-) TimerEvent: {}
+[16.633562] (-) TimerEvent: {}
+[16.738672] (-) TimerEvent: {}
+[16.845916] (-) TimerEvent: {}
+[16.948840] (-) TimerEvent: {}
+[17.059627] (-) TimerEvent: {}
+[17.165111] (-) TimerEvent: {}
+[17.278618] (-) TimerEvent: {}
+[17.383200] (-) TimerEvent: {}
+[17.498837] (-) TimerEvent: {}
+[17.632464] (-) TimerEvent: {}
+[17.733803] (-) TimerEvent: {}
+[17.840953] (-) TimerEvent: {}
+[17.945135] (-) TimerEvent: {}
+[18.060281] (-) TimerEvent: {}
+[18.168395] (-) TimerEvent: {}
+[18.270279] (-) TimerEvent: {}
+[18.383607] (-) TimerEvent: {}
+[18.485455] (-) TimerEvent: {}
+[18.611413] (-) TimerEvent: {}
+[18.720996] (-) TimerEvent: {}
+[18.824359] (-) TimerEvent: {}
+[18.930501] (-) TimerEvent: {}
+[19.032342] (-) TimerEvent: {}
+[19.142510] (-) TimerEvent: {}
+[19.274780] (-) TimerEvent: {}
+[19.380513] (-) TimerEvent: {}
+[19.485436] (-) TimerEvent: {}
+[19.600622] (-) TimerEvent: {}
+[19.705453] (-) TimerEvent: {}
+[19.816847] (-) TimerEvent: {}
+[19.918781] (-) TimerEvent: {}
+[20.019818] (-) TimerEvent: {}
+[20.120702] (-) TimerEvent: {}
+[20.221832] (-) TimerEvent: {}
+[20.332523] (-) TimerEvent: {}
+[20.441675] (-) TimerEvent: {}
+[20.542201] (-) TimerEvent: {}
+[20.644166] (-) TimerEvent: {}
+[20.746568] (-) TimerEvent: {}
+[20.847962] (-) TimerEvent: {}
+[20.948500] (-) TimerEvent: {}
+[21.049605] (-) TimerEvent: {}
+[21.152040] (-) TimerEvent: {}
+[21.260703] (-) TimerEvent: {}
+[21.361533] (-) TimerEvent: {}
+[21.463906] (-) TimerEvent: {}
+[21.567536] (-) TimerEvent: {}
+[21.673598] (-) TimerEvent: {}
+[21.776309] (-) TimerEvent: {}
+[21.877539] (-) TimerEvent: {}
+[21.980589] (-) TimerEvent: {}
+[22.081278] (-) TimerEvent: {}
+[22.198947] (-) TimerEvent: {}
+[22.299898] (-) TimerEvent: {}
+[22.401396] (-) TimerEvent: {}
+[22.519778] (-) TimerEvent: {}
+[22.630696] (-) TimerEvent: {}
+[22.736201] (-) TimerEvent: {}
+[22.842456] (-) TimerEvent: {}
+[22.943761] (-) TimerEvent: {}
+[23.048572] (-) TimerEvent: {}
+[23.167371] (-) TimerEvent: {}
+[23.283767] (-) TimerEvent: {}
+[23.385524] (-) TimerEvent: {}
+[23.500442] (-) TimerEvent: {}
+[23.601124] (-) TimerEvent: {}
+[23.701813] (-) TimerEvent: {}
+[23.802484] (-) TimerEvent: {}
+[23.917021] (-) TimerEvent: {}
+[24.018889] (-) TimerEvent: {}
+[24.131092] (-) TimerEvent: {}
+[24.234574] (-) TimerEvent: {}
+[24.336884] (-) TimerEvent: {}
+[24.441731] (-) TimerEvent: {}
+[24.547948] (-) TimerEvent: {}
+[24.658973] (-) TimerEvent: {}
+[24.761789] (-) TimerEvent: {}
+[24.875174] (-) TimerEvent: {}
+[24.996548] (-) TimerEvent: {}
+[25.105320] (-) TimerEvent: {}
+[25.228618] (-) TimerEvent: {}
+[25.329159] (-) TimerEvent: {}
+[25.437664] (-) TimerEvent: {}
+[25.539022] (-) TimerEvent: {}
+[25.640098] (-) TimerEvent: {}
+[25.742701] (-) TimerEvent: {}
+[25.847868] (-) TimerEvent: {}
+[25.945102] (turtle_chase_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_chase\x1b[0m\n'}
+[25.951254] (-) TimerEvent: {}
+[26.053926] (-) TimerEvent: {}
+[26.167263] (-) TimerEvent: {}
+[26.269249] (-) TimerEvent: {}
+[26.375317] (-) TimerEvent: {}
+[26.484487] (-) TimerEvent: {}
+[26.615768] (-) TimerEvent: {}
+[26.766742] (-) TimerEvent: {}
+[26.891629] (-) TimerEvent: {}
+[26.998424] (-) TimerEvent: {}
+[27.099784] (-) TimerEvent: {}
+[27.202637] (-) TimerEvent: {}
+[27.304605] (-) TimerEvent: {}
+[27.442036] (-) TimerEvent: {}
+[27.544821] (-) TimerEvent: {}
+[27.643070] (turtle_chase_package) StdoutLine: {'line': b'[100%] Built target turtle_chase\n'}
+[27.647522] (-) TimerEvent: {}
+[27.691881] (turtle_chase_package) CommandEnded: {'returncode': 0}
+[27.747602] (-) TimerEvent: {}
+[27.767492] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'install'}
+[27.793671] (turtle_chase_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package'], 'cwd': '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tiger'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tiger'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tiger/桌面'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2511'), ('SYSTEMD_EXEC_PID', '2657'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3777'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tiger'), ('JOURNAL_STREAM', '8:12435'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tiger'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tiger-VirtualBox:@/tmp/.ICE-unix/2626,unix/tiger-VirtualBox:/tmp/.ICE-unix/2626'), ('INVOCATION_ID', '4c9a05a0916845a7b0d93abb63e6d56e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKMZV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da4fc3b148.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.817053] (turtle_chase_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.825280] (turtle_chase_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.825491] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/lib/turtle_chase_package/turtle_chase\n'}
+[27.825555] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/package_run_dependencies/turtle_chase_package\n'}
+[27.825611] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/parent_prefix_path/turtle_chase_package\n'}
+[27.825662] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/ament_prefix_path.sh\n'}
+[27.825711] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/ament_prefix_path.dsv\n'}
+[27.825760] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/path.sh\n'}
+[27.825808] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/path.dsv\n'}
+[27.825856] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.bash\n'}
+[27.825916] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.sh\n'}
+[27.825962] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.zsh\n'}
+[27.826008] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.dsv\n'}
+[27.826055] (turtle_chase_package) StdoutLine: {'line': b'-- Symlinking: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.dsv\n'}
+[27.847685] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/packages/turtle_chase_package\n'}
+[27.847904] (-) TimerEvent: {}
+[27.849937] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/cmake/turtle_chase_packageConfig.cmake\n'}
+[27.851432] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/cmake/turtle_chase_packageConfig-version.cmake\n'}
+[27.851941] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.xml\n'}
+[27.873412] (turtle_chase_package) CommandEnded: {'returncode': 0}
+[27.963025] (-) TimerEvent: {}
+[28.055307] (turtle_chase_package) JobEnded: {'identifier': 'turtle_chase_package', 'rc': 0}
+[28.063278] (-) EventReactorShutdown: {}

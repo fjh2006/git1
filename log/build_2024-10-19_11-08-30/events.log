@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.003216] (turtle_chase_package) JobQueued: {'identifier': 'turtle_chase_package', 'dependencies': OrderedDict()}
+[0.003261] (turtle_chase_package) JobStarted: {'identifier': 'turtle_chase_package'}
+[0.009301] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'cmake'}
+[0.020268] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'build'}
+[0.020966] (turtle_chase_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', '--', '-j1', '-l1'], 'cwd': '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tiger'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tiger'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tiger/桌面'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2485'), ('SYSTEMD_EXEC_PID', '2632'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3769'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tiger'), ('JOURNAL_STREAM', '8:12227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tiger'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tiger-VirtualBox:@/tmp/.ICE-unix/2597,unix/tiger-VirtualBox:/tmp/.ICE-unix/2597'), ('INVOCATION_ID', '1e23846bd56644219f829e592b516438'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X5W9V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da4fc3b148.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101277] (-) TimerEvent: {}
+[0.216073] (-) TimerEvent: {}
+[0.286120] (turtle_chase_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o\x1b[0m\n'}
+[0.323835] (-) TimerEvent: {}
+[0.491136] (-) TimerEvent: {}
+[0.643373] (-) TimerEvent: {}
+[0.748607] (-) TimerEvent: {}
+[0.868682] (-) TimerEvent: {}
+[0.980195] (-) TimerEvent: {}
+[1.101058] (-) TimerEvent: {}
+[1.208619] (-) TimerEvent: {}
+[1.318364] (-) TimerEvent: {}
+[1.428766] (-) TimerEvent: {}
+[1.539904] (-) TimerEvent: {}
+[1.643442] (-) TimerEvent: {}
+[1.775264] (-) TimerEvent: {}
+[1.887767] (-) TimerEvent: {}
+[2.018294] (-) TimerEvent: {}
+[2.131141] (-) TimerEvent: {}
+[2.251286] (-) TimerEvent: {}
+[2.352220] (-) TimerEvent: {}
+[2.456295] (-) TimerEvent: {}
+[2.567793] (-) TimerEvent: {}
+[2.673334] (-) TimerEvent: {}
+[2.799633] (-) TimerEvent: {}
+[2.904707] (-) TimerEvent: {}
+[3.007838] (-) TimerEvent: {}
+[3.119271] (-) TimerEvent: {}
+[3.222117] (-) TimerEvent: {}
+[3.327004] (-) TimerEvent: {}
+[3.468981] (-) TimerEvent: {}
+[3.606867] (-) TimerEvent: {}
+[3.708318] (-) TimerEvent: {}
+[3.836668] (-) TimerEvent: {}
+[3.937486] (-) TimerEvent: {}
+[4.059420] (-) TimerEvent: {}
+[4.160345] (-) TimerEvent: {}
+[4.265689] (-) TimerEvent: {}
+[4.377575] (-) TimerEvent: {}
+[4.479679] (-) TimerEvent: {}
+[4.582900] (-) TimerEvent: {}
+[4.698432] (-) TimerEvent: {}
+[4.835113] (-) TimerEvent: {}
+[4.939978] (-) TimerEvent: {}
+[5.075262] (-) TimerEvent: {}
+[5.177121] (-) TimerEvent: {}
+[5.279237] (-) TimerEvent: {}
+[5.388085] (-) TimerEvent: {}
+[5.531462] (-) TimerEvent: {}
+[5.655326] (-) TimerEvent: {}
+[5.760579] (-) TimerEvent: {}
+[5.870124] (-) TimerEvent: {}
+[6.012263] (-) TimerEvent: {}
+[6.165669] (-) TimerEvent: {}
+[6.267311] (-) TimerEvent: {}
+[6.369077] (-) TimerEvent: {}
+[6.472737] (-) TimerEvent: {}
+[6.584048] (-) TimerEvent: {}
+[6.698714] (-) TimerEvent: {}
+[6.814343] (-) TimerEvent: {}
+[6.946441] (-) TimerEvent: {}
+[7.090296] (-) TimerEvent: {}
+[7.201366] (-) TimerEvent: {}
+[7.311142] (-) TimerEvent: {}
+[7.427250] (-) TimerEvent: {}
+[7.527673] (-) TimerEvent: {}
+[7.665722] (-) TimerEvent: {}
+[7.794195] (-) TimerEvent: {}
+[7.902569] (-) TimerEvent: {}
+[7.904591] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtleChase::TurtleChase()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.904827] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:24:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = turtlesim::srv::Spawn; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.904926] (turtle_chase_package) StderrLine: {'line': b'   24 | \x1b[01;35m\x1b[Kthis->spin_until_future_complete(future_result)\x1b[m\x1b[K;// \xe5\xbc\x82\xe6\xad\xa5\xe5\x8f\x91\xe9\x80\x81spawn\xe8\xaf\xb7\xe6\xb1\x82\xef\xbc\x8c\xe5\xb9\xb6\xe7\xad\x89\xe5\xbe\x85\xe7\xbb\x93\xe6\x9e\x9c\n'}
+[7.904990] (turtle_chase_package) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.905703] (turtle_chase_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.906941] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.907053] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.907118] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.907619] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.907713] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.907767] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.907819] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.907868] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.907914] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:1\x1b[m\x1b[K:\n'}
+[7.907961] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.908007] (turtle_chase_package) StderrLine: {'line': b'  415 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K SharedFuture() {return this->future.share();}\n'}
+[7.908052] (turtle_chase_package) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.909680] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:28:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId::operator rclcpp::Client<ServiceT>::SharedFuture() [with ServiceT = turtlesim::srv::Spawn; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<turtlesim::srv::Spawn_Response_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.909845] (turtle_chase_package) StderrLine: {'line': b'   28 | \x1b[01;35m\x1b[Kthis->spin_until_future_complete(future_result)\x1b[m\x1b[K;\n'}
+[7.911481] (turtle_chase_package) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.912495] (turtle_chase_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.912607] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.912663] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.912714] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.912765] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.912814] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.912861] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.912914] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.912960] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.913007] (turtle_chase_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/src/turtle_chase.cpp:1\x1b[m\x1b[K:\n'}
+[7.913054] (turtle_chase_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:415:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.913103] (turtle_chase_package) StderrLine: {'line': b'  415 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K SharedFuture() {return this->future.share();}\n'}
+[7.913152] (turtle_chase_package) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.031910] (-) TimerEvent: {}
+[8.149030] (-) TimerEvent: {}
+[8.250772] (-) TimerEvent: {}
+[8.386690] (-) TimerEvent: {}
+[8.492197] (-) TimerEvent: {}
+[8.620503] (-) TimerEvent: {}
+[8.732855] (-) TimerEvent: {}
+[8.845686] (-) TimerEvent: {}
+[8.957560] (-) TimerEvent: {}
+[9.083947] (-) TimerEvent: {}
+[9.264809] (-) TimerEvent: {}
+[9.370149] (-) TimerEvent: {}
+[9.516223] (-) TimerEvent: {}
+[9.639963] (-) TimerEvent: {}
+[9.780513] (-) TimerEvent: {}
+[9.895705] (-) TimerEvent: {}
+[10.014976] (-) TimerEvent: {}
+[10.126341] (-) TimerEvent: {}
+[10.228583] (-) TimerEvent: {}
+[10.362241] (-) TimerEvent: {}
+[10.470623] (-) TimerEvent: {}
+[10.577184] (-) TimerEvent: {}
+[10.727699] (-) TimerEvent: {}
+[10.837044] (-) TimerEvent: {}
+[10.944590] (-) TimerEvent: {}
+[11.062966] (-) TimerEvent: {}
+[11.164097] (-) TimerEvent: {}
+[11.295531] (-) TimerEvent: {}
+[11.403007] (-) TimerEvent: {}
+[11.514605] (-) TimerEvent: {}
+[11.685694] (-) TimerEvent: {}
+[11.841694] (-) TimerEvent: {}
+[11.943562] (-) TimerEvent: {}
+[12.046093] (-) TimerEvent: {}
+[12.146713] (-) TimerEvent: {}
+[12.255119] (-) TimerEvent: {}
+[12.379896] (-) TimerEvent: {}
+[12.488808] (-) TimerEvent: {}
+[12.598768] (-) TimerEvent: {}
+[12.720713] (-) TimerEvent: {}
+[12.837581] (-) TimerEvent: {}
+[12.949978] (-) TimerEvent: {}
+[13.060773] (-) TimerEvent: {}
+[13.163660] (-) TimerEvent: {}
+[13.265788] (-) TimerEvent: {}
+[13.374706] (-) TimerEvent: {}
+[13.490531] (-) TimerEvent: {}
+[13.603869] (-) TimerEvent: {}
+[13.704255] (-) TimerEvent: {}
+[13.805387] (-) TimerEvent: {}
+[13.918248] (-) TimerEvent: {}
+[14.018859] (-) TimerEvent: {}
+[14.124066] (-) TimerEvent: {}
+[14.245240] (-) TimerEvent: {}
+[14.356618] (-) TimerEvent: {}
+[14.460483] (-) TimerEvent: {}
+[14.595439] (-) TimerEvent: {}
+[14.697971] (-) TimerEvent: {}
+[14.799058] (-) TimerEvent: {}
+[14.900339] (-) TimerEvent: {}
+[15.001741] (-) TimerEvent: {}
+[15.103195] (-) TimerEvent: {}
+[15.204279] (-) TimerEvent: {}
+[15.312278] (-) TimerEvent: {}
+[15.418268] (-) TimerEvent: {}
+[15.540267] (-) TimerEvent: {}
+[15.643406] (-) TimerEvent: {}
+[15.759024] (-) TimerEvent: {}
+[15.861095] (-) TimerEvent: {}
+[16.020924] (-) TimerEvent: {}
+[16.130358] (-) TimerEvent: {}
+[16.232127] (-) TimerEvent: {}
+[16.335170] (-) TimerEvent: {}
+[16.437272] (-) TimerEvent: {}
+[16.568733] (-) TimerEvent: {}
+[16.677897] (-) TimerEvent: {}
+[16.788653] (-) TimerEvent: {}
+[16.904058] (-) TimerEvent: {}
+[17.040515] (-) TimerEvent: {}
+[17.167369] (-) TimerEvent: {}
+[17.269014] (-) TimerEvent: {}
+[17.389777] (-) TimerEvent: {}
+[17.512892] (-) TimerEvent: {}
+[17.642631] (-) TimerEvent: {}
+[17.765714] (-) TimerEvent: {}
+[17.872180] (-) TimerEvent: {}
+[17.990480] (-) TimerEvent: {}
+[18.104109] (-) TimerEvent: {}
+[18.230927] (-) TimerEvent: {}
+[18.382213] (-) TimerEvent: {}
+[18.523072] (-) TimerEvent: {}
+[18.626473] (-) TimerEvent: {}
+[18.731022] (-) TimerEvent: {}
+[18.832008] (-) TimerEvent: {}
+[18.939877] (-) TimerEvent: {}
+[19.050990] (-) TimerEvent: {}
+[19.158477] (-) TimerEvent: {}
+[19.268515] (-) TimerEvent: {}
+[19.373512] (-) TimerEvent: {}
+[19.510262] (-) TimerEvent: {}
+[19.613657] (-) TimerEvent: {}
+[19.731559] (-) TimerEvent: {}
+[19.840070] (-) TimerEvent: {}
+[19.949169] (-) TimerEvent: {}
+[20.054197] (-) TimerEvent: {}
+[20.161255] (-) TimerEvent: {}
+[20.275858] (-) TimerEvent: {}
+[20.383978] (-) TimerEvent: {}
+[20.489206] (-) TimerEvent: {}
+[20.604839] (-) TimerEvent: {}
+[20.710887] (-) TimerEvent: {}
+[20.815657] (-) TimerEvent: {}
+[20.925864] (-) TimerEvent: {}
+[21.032617] (-) TimerEvent: {}
+[21.142098] (-) TimerEvent: {}
+[21.257470] (-) TimerEvent: {}
+[21.364648] (-) TimerEvent: {}
+[21.476720] (-) TimerEvent: {}
+[21.580749] (-) TimerEvent: {}
+[21.681116] (-) TimerEvent: {}
+[21.804311] (-) TimerEvent: {}
+[21.914885] (-) TimerEvent: {}
+[22.027054] (-) TimerEvent: {}
+[22.153102] (-) TimerEvent: {}
+[22.264597] (-) TimerEvent: {}
+[22.403647] (-) TimerEvent: {}
+[22.504306] (-) TimerEvent: {}
+[22.614394] (-) TimerEvent: {}
+[22.729845] (-) TimerEvent: {}
+[22.865267] (-) TimerEvent: {}
+[22.972210] (-) TimerEvent: {}
+[23.087281] (-) TimerEvent: {}
+[23.194620] (-) TimerEvent: {}
+[23.300620] (-) TimerEvent: {}
+[23.432787] (-) TimerEvent: {}
+[23.549478] (-) TimerEvent: {}
+[23.666027] (-) TimerEvent: {}
+[23.775238] (-) TimerEvent: {}
+[23.879048] (-) TimerEvent: {}
+[24.024098] (-) TimerEvent: {}
+[24.133331] (-) TimerEvent: {}
+[24.244988] (-) TimerEvent: {}
+[24.365257] (-) TimerEvent: {}
+[24.487828] (-) TimerEvent: {}
+[24.590143] (-) TimerEvent: {}
+[24.691585] (-) TimerEvent: {}
+[24.792366] (-) TimerEvent: {}
+[24.897767] (-) TimerEvent: {}
+[25.004448] (-) TimerEvent: {}
+[25.113447] (-) TimerEvent: {}
+[25.217223] (-) TimerEvent: {}
+[25.318906] (-) TimerEvent: {}
+[25.429784] (-) TimerEvent: {}
+[25.548826] (-) TimerEvent: {}
+[25.649768] (-) TimerEvent: {}
+[25.751925] (-) TimerEvent: {}
+[25.868267] (-) TimerEvent: {}
+[25.983665] (-) TimerEvent: {}
+[26.131314] (-) TimerEvent: {}
+[26.233278] (-) TimerEvent: {}
+[26.337998] (-) TimerEvent: {}
+[26.426720] (turtle_chase_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_chase\x1b[0m\n'}
+[26.440452] (-) TimerEvent: {}
+[26.548331] (-) TimerEvent: {}
+[26.704275] (-) TimerEvent: {}
+[26.832641] (-) TimerEvent: {}
+[26.977694] (-) TimerEvent: {}
+[27.101773] (-) TimerEvent: {}
+[27.222324] (-) TimerEvent: {}
+[27.329800] (-) TimerEvent: {}
+[27.441484] (-) TimerEvent: {}
+[27.556210] (-) TimerEvent: {}
+[27.657571] (-) TimerEvent: {}
+[27.794318] (-) TimerEvent: {}
+[27.885520] (turtle_chase_package) StdoutLine: {'line': b'[100%] Built target turtle_chase\n'}
+[27.903611] (-) TimerEvent: {}
+[27.938949] (turtle_chase_package) CommandEnded: {'returncode': 0}
+[28.007369] (-) TimerEvent: {}
+[28.016644] (turtle_chase_package) JobProgress: {'identifier': 'turtle_chase_package', 'progress': 'install'}
+[28.038394] (turtle_chase_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package'], 'cwd': '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tiger'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tiger'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tiger/桌面'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2485'), ('SYSTEMD_EXEC_PID', '2632'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3769'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tiger'), ('JOURNAL_STREAM', '8:12227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tiger'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tiger-VirtualBox:@/tmp/.ICE-unix/2597,unix/tiger-VirtualBox:/tmp/.ICE-unix/2597'), ('INVOCATION_ID', '1e23846bd56644219f829e592b516438'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X5W9V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-da4fc3b148.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[28.074933] (turtle_chase_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.075224] (turtle_chase_package) StdoutLine: {'line': b'-- Installing: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/lib/turtle_chase_package/turtle_chase\n'}
+[28.075299] (turtle_chase_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/lib/turtle_chase_package/turtle_chase" to ""\n'}
+[28.075360] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/package_run_dependencies/turtle_chase_package\n'}
+[28.075420] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/parent_prefix_path/turtle_chase_package\n'}
+[28.075476] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/ament_prefix_path.sh\n'}
+[28.075536] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/ament_prefix_path.dsv\n'}
+[28.075590] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/path.sh\n'}
+[28.075643] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/environment/path.dsv\n'}
+[28.075694] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.bash\n'}
+[28.075745] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.sh\n'}
+[28.075797] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.zsh\n'}
+[28.075847] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/local_setup.dsv\n'}
+[28.075898] (turtle_chase_package) StdoutLine: {'line': b'-- Installing: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.dsv\n'}
+[28.075949] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/ament_index/resource_index/packages/turtle_chase_package\n'}
+[28.075999] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/cmake/turtle_chase_packageConfig.cmake\n'}
+[28.076051] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/cmake/turtle_chase_packageConfig-version.cmake\n'}
+[28.076100] (turtle_chase_package) StdoutLine: {'line': b'-- Up-to-date: /home/tiger/\xe6\xa1\x8c\xe9\x9d\xa2/turtle_chase_package/install/turtle_chase_package/share/turtle_chase_package/package.xml\n'}
+[28.098143] (turtle_chase_package) CommandEnded: {'returncode': 0}
+[28.109943] (-) TimerEvent: {}
+[28.230895] (-) TimerEvent: {}
+[28.262099] (turtle_chase_package) JobEnded: {'identifier': 'turtle_chase_package', 'rc': 0}
+[28.264082] (-) EventReactorShutdown: {}

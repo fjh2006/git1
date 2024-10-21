@@ -1,0 +1,10 @@
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/uninstall.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/turtle_chase_package_uninstall.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/turtle_chase.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/test.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/edit_cache.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/rebuild_cache.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/list_install_components.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/install.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/install/local.dir
+/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package/CMakeFiles/install/strip.dir

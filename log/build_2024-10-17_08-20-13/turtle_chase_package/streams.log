@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o[0m
+[0.641s] In file included from [01m[K/home/tiger/桌面/turtle_chase_package/src/turtle_chase.cpp:1[m[K:
+[0.642s] [01m[K/home/tiger/桌面/turtle_chase_package/include/turtle_chase.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: 没有那个文件或目录
+[0.642s]     6 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.642s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.642s] compilation terminated.
+[0.648s] gmake[2]: *** [CMakeFiles/turtle_chase.dir/build.make:76：CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o] 错误 1
+[0.649s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_chase.dir/all] 错误 2
+[0.650s] gmake: *** [Makefile:146：all] 错误 2
+[0.660s] Invoked command in '/home/tiger/桌面/turtle_chase_package/build/turtle_chase_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tiger/桌面/turtle_chase_package/build/turtle_chase_package -- -j1 -l1
